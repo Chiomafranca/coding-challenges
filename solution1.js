@@ -6,7 +6,7 @@ function getSum(a, b)
     }else if(a < b){
         return a + getSum(a + 1, b)
     }else{
-        return a + getSum(a - b, b)
+        return a + getSum(a - 1, b)
     }
 }
 
